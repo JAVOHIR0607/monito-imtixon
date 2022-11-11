@@ -1,0 +1,28 @@
+.loader {
+    position: fixed;
+    inset: 0;
+    background-color:$oq;
+    z-index: 9999;
+    display: grid;
+    place-items:center;
+    animation: boshlan 1s linear 3s 1 forwards;
+    .loading {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border-radius:50% ;
+        border: 20px dotted $border-color ;
+        animation:aylan 1s ease-in-out infinite  ;
+    }
+}
+@keyframes aylan {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes boshlan {
+    to {
+        visibility: hidden;
+        opacity: 0;
+    }
+}

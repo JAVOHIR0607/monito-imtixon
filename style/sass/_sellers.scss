@@ -1,0 +1,49 @@
+section#sellers {
+    background-color: $oq;
+    padding: 2rem 0;
+    .flex {
+        align-items: center;
+
+    }
+    .main-btn1 {
+        width: 210px;
+        margin-left: auto;
+    }
+    h4 {
+        p{   
+width: 141px;
+height: 31px;
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 31px;
+display: inline-block;
+align-items: flex-end;
+color:$qora;
+        }
+           }
+        span {
+width: 117px;
+height: 36px;
+font-family: 'SVN-Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+display: inline-block;
+align-items: flex-end;
+text-transform: capitalize;
+color: $btn-color;
+}
+.portion {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 1180px;
+height: 112px;
+margin-right: 19px;
+}
+}

@@ -1,0 +1,72 @@
+section#adaption {
+    background-color:$sariq-color;
+    padding: 2rem 0;
+    .portion {
+        background: url(../../images/Rectangle\ 9\ \(2\).png) no-repeat ;
+        border-radius:49px;
+        h2 {
+width: 225px;
+height: 68px;
+font-family: 'SVN-Gilroy';
+font-weight: 800;
+font-size: 52px;
+line-height: 68px;
+text-transform: capitalize;
+color:$btn-color;
+padding-left:3rem;
+margin-left:5%;
+display: flex;
+gap: 20px;
+ }
+        h3 {
+width: 448px;
+height: 54px;
+font-family: 'SVN-Gilroy';
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+text-transform: capitalize;
+color:$btn-color;
+margin-left:4.5%;
+        }
+p {
+width: 394px;
+height: 36px;
+font-family: 'SVN-Gilroy';
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color:$paragraf-color;
+padding-left:3rem;
+        }
+    }
+
+    .main-btn1 {
+        img {
+            padding-top:5%;
+        }
+display:inline-block;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 28px 10px;
+gap: 8px;
+width: 161px;
+height: 48px;
+border: 1.5px solid $btn-color;
+border-radius: 57px;  
+    }
+        .main-btn {
+display:inline-block;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 19px 28px 10px;
+gap: 15px;
+width: 163px;
+height: 48px;
+background: $btn-color;
+border-radius: 57px;
+color:$oq;
+    }
+} 

@@ -1,0 +1,145 @@
+ section#reflex{
+     background-color:$oq;
+     padding:0;
+     .grid{
+       grid-template-columns: repeat(4,1fr);; 
+        gap: 3rem;
+        display:inline-block;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 8px 8px 0px 0px;
+ gap: 280px;
+ width: 320px;
+ height: 410px;
+
+p {
+width: 326px;
+height: 24px;
+font-family: 'SVN-Gilroy';
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: flex-end;
+color:$oq; 
+padding-top:45%;  
+  }
+ h3 {
+ width: 146px;
+ height: 36px;
+ font-family: 'SVN-Gilroy';
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 36px;
+ display: flex;
+ align-items: flex-end;
+ text-transform: capitalize;
+ color:$btn-color;
+ padding-top:0%;
+ }
+     }
+    }
+.project {
+ h5 {
+ width: 248px;
+ height: 48px;
+ font-family: 'SVN-Gilroy';
+ font-weight: 700;
+ font-size: 16px;
+ line-height:1.2;
+ display: flex;
+ align-items: flex-end;
+ color:$btn-color;
+ padding-left: 20px;
+ }
+ p {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+padding-left:5%;
+ gap: 4px;
+ width:320px;
+ height: 18px;
+ opacity: 0.6;
+ margin-top:5%;
+
+ }
+ h4 {
+ width: 248px;
+ height: 20px;
+ font-family: 'SVN-Gilroy';
+ font-weight: 700;
+ font-size: 14px;
+ line-height:1.2;
+ display: flex;
+ align-items: flex-end;
+ color:$btn-color;
+ padding-left:20%;
+ }
+ }
+ article {
+  img {
+    padding:1.5rem;
+  }
+display: inline-block;
+background:$oq;
+box-shadow: 0px 4px 28px -2px $qora;
+border-radius: 12px;
+gap: 20px;
+ }
+ .box {
+  position: absolute;
+  bottom:-369.7%;
+ }
+ .project2 {
+ h5 {
+ width: 248px;
+ height: 48px;
+ font-family: 'SVN-Gilroy';
+ font-weight: 700;
+ font-size: 16px;
+ line-height:1.2;
+ display: flex;
+ align-items: flex-end;
+ color: $btn-color;
+ padding-left: 20px;
+ }
+ p {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+padding-left:5%;
+ gap: 4px;
+ width:320px;
+ height: 18px;
+ opacity: 0.6;
+ margin-top:5%;
+
+ }
+ h4 {
+ width: 248px;
+ height: 20px;
+ font-family: 'SVN-Gilroy';
+ font-weight: 700;
+ font-size: 14px;
+ line-height:1.2;
+ display: flex;
+ align-items: flex-end;
+ color:$btn-color;
+ padding-left:20%;
+ }
+ }
+ article {
+  img {
+    padding:1.5rem;
+  }
+display: inline-block;
+background: #FDFDFD;
+box-shadow: 0px 4px 28px -2px $qora;
+border-radius: 12px;
+gap: 20px;
+ }
+ .box2 {
+  position: absolute;
+  bottom:-429.8%;
+ }

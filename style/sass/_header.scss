@@ -1,0 +1,110 @@
+ header#main-header {
+    overflow: hidden;
+    padding:14px 0;
+    align-items: center;
+    .sider {
+        display: none;
+        position: relative;
+
+        .sidebar {
+            position:fixed;
+            top: 0;
+            left: 0;
+            background-color: $oq;
+            width: 300px;
+            height: 100%;
+            box-shadow: 0 0 20px $border-color;
+            transform: translateX(-100%);
+        }
+        input[type="checkbox"]:checked + .sidebar {
+            transform: translateX(0);
+        }
+    }
+    .logo {
+        margin-left:30px;
+        margin-bottom: 32%;
+    }
+   .container.flex {
+    justify-content: space-between;
+    }
+    .flex {
+        align-items: center;
+        margin-right: auto;
+        gap: 3rem;
+    }
+    .portion{
+    margin-right: 35%;
+    .input-type {
+      opacity: 0.8;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px 12px 16px;
+    gap: 12px;
+    width: 280px;
+    height: 44px;
+    margin-top: -80%;
+    background: $oq;
+    border-radius: 46px;  
+    margin-left: 15px;
+    }
+.lor {
+position: absolute;
+left:48.5%;
+bottom:92.5%;
+z-index: 9999;
+text-align: center;
+    }
+    }
+.main-btn {
+    position: absolute;
+    right:16%;
+    top:22.2px;
+ display: flex;
+color: $oq;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 28px 10px;
+gap: 15px;
+width: 203px;
+height: 44px;
+background:$btn-color;
+border-radius: 57px;
+text-align: center;
+}
+.eng {
+position: absolute;
+right:10%;
+top:32px;
+width: 33px;
+height: 23px;
+font-family: 'SVN-Gilroy';
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+}
+.pasga {
+    position: absolute;
+    right:9%;
+    top:32px;
+}
+ background:url(../../images/orqa\ fon.png) no-repeat ;
+ }
+    .main-nav {
+       margin-bottom:15%;
+       margin-top: -275px;
+    }
+.kesish { 
+    .orqa-fon {
+        position: absolute;
+        top: 26%;
+        right: 2%;
+    }
+    
+}

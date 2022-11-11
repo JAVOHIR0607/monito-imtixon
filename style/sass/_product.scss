@@ -1,0 +1,122 @@
+section#product {
+    background:$oq;
+    .flex {
+     align-items: center;
+    }
+    h1 {
+position: absolute;
+width: 465px;
+height: 68px;
+left: 130px;
+top: 180px;
+font-family: 'SVN-Gilroy';
+font-weight: 800;
+font-size: 60px;
+line-height: 68px;
+text-transform: capitalize;
+color:$btn-color;
+    }
+    background:url(../../images/o\ yozuvi.svg) no-repeat ;
+    margin-left:8.8%;
+    margin-top:27.5%;
+    margin-bottom: -36%;
+    h2 {
+        position: absolute;
+width: 452px;
+height: 60px;
+left: 130px;
+top: 252px;
+font-family: 'SVN-Gilroy';
+font-weight: 700;
+font-size: 46px;
+line-height: 60px;
+text-transform: capitalize;
+color: $btn-color;
+    }  
+    p {
+ position: absolute;
+width: 480px;
+height: 72px;
+left: 130px;
+top: 336px;
+font-family: 'SVN-Gilroy';
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color:$border-color;
+    }
+    .main-btn {
+ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 28px 10px;
+gap: 10px;
+position: absolute;
+width: 163px;
+height: 48px;
+left: 311px;
+top: 442px;
+color: $oq;
+background: $btn-color;
+border-radius: 57px;
+    }
+    .main-btn1 {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 28px 10px;
+gap: 8px;
+position: absolute;
+width: 161px;
+height: 48px;
+left: 130px;
+top: 442px;
+border: 1.5px solid $btn-color;
+border-radius: 57px;
+    }
+     .lour {
+ position: absolute;
+ width: 944px;
+ height: 693px;
+ left: 530px;
+ top: 84px;
+ bottom: 45%;
+     }
+ }
+ .mayda-rasm {
+     position: absolute;
+     left: 48%;
+     top: 37%;
+ }
+ .mayda-rasm2 {
+     position: absolute;
+     left: 48%;
+     top: 39%;  
+ }
+     .kok {
+ position: absolute;
+ width: 635px;
+ height: 635px;
+ left: 675px;
+ top: 278px;
+ bottom:81%;
+ background: $btn-color;
+ border-radius: 99px;
+ transform: rotate(9.35deg);
+     }
+     .oq {
+ position: absolute;
+ width: 670px;
+ height: 629px;
+ left: 854px;
+ top: 180px;
+ border-radius: 99px;
+ transform: rotate(25.23deg);
+  }
+  .pas {
+    position: absolute;
+    bottom:0px;
+  }
